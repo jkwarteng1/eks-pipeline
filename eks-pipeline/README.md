@@ -1,5 +1,3 @@
-# eks-pipeline
-
 # EKS CI/CD Pipeline with Monitoring and Logging
 
 This project provisions an EKS cluster using Terraform, sets up a CI/CD pipeline using GitHub Actions, and deploys Prometheus, Grafana, and Loki for monitoring and logging.
@@ -69,5 +67,4 @@ To destroy the infrastructure and clean up resources:
 
 cd terraform
 terraform destroy -auto-approve
-
 
