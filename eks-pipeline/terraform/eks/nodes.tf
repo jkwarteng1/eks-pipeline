@@ -12,7 +12,7 @@ module "eks_node_group" {
       min_capacity     = var.min_size
 
       instance_type = var.instance_type
-      key_name      = "your-key-name" // Replace with your EC2 key pair name
+      key_name      = "test-8-24.pem" // Replace with your EC2 key pair name
     }
   }
 }
